@@ -161,12 +161,16 @@ function App() {
         <ImageBackground
           source={{
             uri: images[currentImageIndex].url,
+            cache: 'force-cache',
           }}
           style={styles.backgroundImage}
           blurRadius={100}
         >
           <Image
-            src={images[currentImageIndex].url}
+            source={{
+              uri: images[currentImageIndex].url,
+              cache: 'force-cache',
+            }}
             style={{
               ...styles.fullScreen,
               ...styles.fullScreenImage,
