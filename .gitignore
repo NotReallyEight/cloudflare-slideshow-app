@@ -80,3 +80,6 @@ ios/tmp.xcconfig
 
 # Env files
 .env
+
+# ESLint cache
+.eslintcache
