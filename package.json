@@ -8,7 +8,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --concurrency=auto --cache",
     "start": "react-native start",
     "test": "jest",
-    "prettier": "prettier . --write --cache"
+    "prettier": "prettier . --write --cache",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.80.1",
