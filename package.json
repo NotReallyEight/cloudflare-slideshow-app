@@ -19,7 +19,7 @@
     "react": "^19.1.1",
     "react-native": "0.80.1",
     "react-native-config": "^1.5.5",
-    "react-native-device-info": "^14.0.4",
+    "react-native-device-info": "^14.1.1",
     "react-native-url-polyfill": "^2.0.0",
     "react-native-video": "^6.16.1"
   },
