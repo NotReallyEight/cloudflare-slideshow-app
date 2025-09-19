@@ -28,7 +28,7 @@ function App() {
   >([]);
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
   const [loading, setLoading] = useState<boolean>(true);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<number | null>(null);
   const [lowEndDevices] = useMemo<string[]>(() => ['SM-J600FN'], []);
   const deviceName = DeviceInfo.getModel();
 
