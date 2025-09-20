@@ -1749,9 +1749,9 @@ PODS:
     - React-RCTFBReactNativeSpec
     - ReactCommon/turbomodule/core
     - SocketRocket
-  - react-native-config (1.5.5):
-    - react-native-config/App (= 1.5.5)
-  - react-native-config/App (1.5.5):
+  - react-native-config (1.5.6):
+    - react-native-config/App (= 1.5.6)
+  - react-native-config/App (1.5.6):
     - React-Core
   - react-native-keep-awake (1.3.1):
     - RCT-Folly
@@ -2726,7 +2726,7 @@ SPEC CHECKSUMS:
   React-logger: a3cb5b29c32b8e447b5a96919340e89334062b48
   React-Mapbuffer: 9d2434a42701d6144ca18f0ca1c4507808ca7696
   React-microtasksnativemodule: 75b6604b667d297292345302cc5bfb6b6aeccc1b
-  react-native-config: 644074ab88db883fcfaa584f03520ec29589d7df
+  react-native-config: f1dde39f8468ad922fc7e8bd4308c8e6223d5ee8
   react-native-keep-awake: a351e6f67006b47f316ae2b17ee8ee69386167f4
   react-native-safe-area-context: 84a754cad3fbb25117482cde6b8defca6c6f6a53
   react-native-video: a509f299d71020addc12bff98bc094c142d3f09c
