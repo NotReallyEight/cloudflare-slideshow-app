@@ -47,3 +47,20 @@ jobs:
       - name: Compile Android app
         run: "./gradlew assembleRelease"
         working-directory: android
+  build-ios:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        node-version: [22.x]
+    steps:
+      - uses: actions/checkout@v5
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v5
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: "npm ci"
+      - run: "bundle install"
+      - run: "cd ios && pod install && cd .."
+      - name: "Compile iOS app"
+        run: "xcodebuild -workspace ios/CloudflareSlideShow.xcworkspace -scheme CloudflareSlideShow -configuration Release -sdk iphoneos -derivedDataPath build"
