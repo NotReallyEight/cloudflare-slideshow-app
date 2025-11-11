@@ -81,11 +81,11 @@ function App() {
         const json = (await response.json()) as ListFilesResponse;
 
         const processed = json.files.map(file => {
-          const isImage = file.key.match(/\.(jpg|jpeg|png)$/);
+          const isImage = file.key.match(/\.(jpg|jpeg|png)$/i);
           return {
             url: file.publicUrl,
             contentType: isImage
-              ? 'image/' + file.key.split('.').pop()
+              ? 'image/' + file.key.toLowerCase().split('.').pop()
               : 'video/mp4',
           };
         });
