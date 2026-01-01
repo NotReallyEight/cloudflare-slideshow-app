@@ -1897,8 +1897,7 @@ PODS:
     - react-native-config/App (= 1.5.6)
   - react-native-config/App (1.5.6):
     - React-Core
-  - react-native-keep-awake (1.3.1):
-    - RCT-Folly
+  - react-native-keep-awake (1.4.0):
     - RCTRequired
     - RCTTypeSafety
     - React-Codegen
@@ -2944,7 +2943,7 @@ SPEC CHECKSUMS:
   React-Mapbuffer: 2e0e7cc5b7064eaed9c8b8afc3a87621cb7ef5cd
   React-microtasksnativemodule: dd4d33b251b57e5027c572c6d0b45cbfbcfaa386
   react-native-config: 9f48ad1ee7f4fcb9482c66988e30bd60572bb963
-  react-native-keep-awake: 5fb94de503761b67af1bec52f83e18d66e9abaf3
+  react-native-keep-awake: f1e9b76f4cf5665bf5547dcd86e8ee69823856cd
   react-native-safe-area-context: 6d8a7b750e496e37bda47c938320bf2c734d441f
   react-native-video: 58ca400e410fec7572628df817841b7d8f376ea6
   React-NativeModulesApple: 7f2f2fed3f6c858889eb61d09941be965d52df58
