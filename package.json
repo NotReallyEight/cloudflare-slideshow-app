@@ -25,8 +25,8 @@
     "react-native-video": "^6.17.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.4",
-    "@babel/preset-env": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
     "@babel/runtime": "^7.28.4",
     "@eslint/js": "^9.36.0",
     "@prettier/plugin-oxc": "^0.0.4",
