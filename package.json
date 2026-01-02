@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-native/new-app-screen": "0.83.1",
     "@sayem314/react-native-keep-awake": "^1.4.0",
-    "@supabase/supabase-js": "^2.74.0",
+    "@supabase/supabase-js": "^2.89.0",
     "@types/eslint-plugin-jsx-a11y": "^6.10.0",
     "react": "19.2.0",
     "react-native": "0.83.1",
