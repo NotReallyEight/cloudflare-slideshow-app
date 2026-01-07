@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-native/new-app-screen": "0.83.1",
     "@sayem314/react-native-keep-awake": "^1.4.0",
-    "@supabase/supabase-js": "^2.89.0",
+    "@supabase/supabase-js": "^2.90.0",
     "react": "19.2.0",
     "react-native": "0.83.1",
     "react-native-config": "^1.6.1",
