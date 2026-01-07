@@ -36,7 +36,7 @@ export default defineConfig([
     },
   },
   reactRefresh.configs.recommended,
-  reactHooks.configs['recommended-latest'],
+  reactHooks.configs.flat.recommended,
   jsxA11Y.flatConfigs.recommended,
   _import.flatConfigs.recommended,
 ]);
