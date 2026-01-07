@@ -1930,7 +1930,7 @@ PODS:
     - React-Core
     - React-RCTFabric
     - ReactCommon/turbomodule/core
-  - react-native-safe-area-context (5.6.1):
+  - react-native-safe-area-context (5.6.2):
     - boost
     - DoubleConversion
     - fast_float
@@ -1948,8 +1948,8 @@ PODS:
     - React-graphics
     - React-ImageManager
     - React-jsi
-    - react-native-safe-area-context/common (= 5.6.1)
-    - react-native-safe-area-context/fabric (= 5.6.1)
+    - react-native-safe-area-context/common (= 5.6.2)
+    - react-native-safe-area-context/fabric (= 5.6.2)
     - React-NativeModulesApple
     - React-RCTFabric
     - React-renderercss
@@ -1960,7 +1960,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-safe-area-context/common (5.6.1):
+  - react-native-safe-area-context/common (5.6.2):
     - boost
     - DoubleConversion
     - fast_float
@@ -1988,7 +1988,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-safe-area-context/fabric (5.6.1):
+  - react-native-safe-area-context/fabric (5.6.2):
     - boost
     - DoubleConversion
     - fast_float
@@ -2017,7 +2017,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-video (6.17.0):
+  - react-native-video (6.18.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2035,7 +2035,7 @@ PODS:
     - React-graphics
     - React-ImageManager
     - React-jsi
-    - react-native-video/Video (= 6.17.0)
+    - react-native-video/Video (= 6.18.0)
     - React-NativeModulesApple
     - React-RCTFabric
     - React-renderercss
@@ -2046,7 +2046,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-video/Fabric (6.17.0):
+  - react-native-video/Fabric (6.18.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2074,7 +2074,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
-  - react-native-video/Video (6.17.0):
+  - react-native-video/Video (6.18.0):
     - boost
     - DoubleConversion
     - fast_float
@@ -2970,8 +2970,8 @@ SPEC CHECKSUMS:
   React-microtasksnativemodule: dd4d33b251b57e5027c572c6d0b45cbfbcfaa386
   react-native-config: d11015cb98b2973fec0e49407181720225733567
   react-native-keep-awake: f1e9b76f4cf5665bf5547dcd86e8ee69823856cd
-  react-native-safe-area-context: 6d8a7b750e496e37bda47c938320bf2c734d441f
-  react-native-video: 58ca400e410fec7572628df817841b7d8f376ea6
+  react-native-safe-area-context: 54d812805f3c4e08a4580ad086cbde1d8780c2e4
+  react-native-video: 7be878f72d62c9259f40e44c9318f45dc38fb58d
   React-NativeModulesApple: 7f2f2fed3f6c858889eb61d09941be965d52df58
   React-networking: 43e5e6773ac2ca2a93261a1388fed269c9fce092
   React-oscompat: 80166b66da22e7af7fad94474e9997bd52d4c8c6
